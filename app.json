@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "ContactApp",
+    "slug": "ContactApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "entryPoint": "./App.js",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFBF1B"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFBF1B"
+      },
+      "package": "com.carlos.caicedo.ContactApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3ca2cfee-4bef-44fd-9aa1-e440ee8f604d"
+      }
+    }
+  }
+}
